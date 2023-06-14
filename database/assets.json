@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "64899f338a902102f45a63bf"
+  },
+  "name": "LabPC-1",
+  "description": "Windows Lab Computer",
+  "location": "Room 252"
+},{
+  "_id": {
+    "$oid": "64899f338a902102f45a63c0"
+  },
+  "name": "LabPC-2",
+  "description": "Linux Lab Computer",
+  "location": "Room 252"
+},{
+  "_id": {
+    "$oid": "64899f338a902102f45a63c1"
+  },
+  "name": "Digital Multimeter",
+  "description": "Device for measuring various attributes of an electrical connection",
+  "location": "Room 251"
+},{
+  "_id": {
+    "$oid": "6489aaa9a03448f38b409e66"
+  },
+  "name": "Oscilloscope",
+  "description": "Tool for graphing electric  signals",
+  "location": "Room 251"
+}]

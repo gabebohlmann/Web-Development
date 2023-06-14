@@ -1,0 +1,1 @@
+This folder contains JSON file representations of the database collections data that must be stored in MongoDB for the LabAMS application. assets.json contains the JSON data for the assets in the lab and users.json contains the JSON data of users of the lab.

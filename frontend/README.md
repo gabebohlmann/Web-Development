@@ -1,0 +1,1 @@
+This is react frontend folder of the LabAMS application. It contains all the necessary ReactJS code and node modules to run the frontend application that the user sees. To run the frontend navigate to the frontend in Windows terminal with ```cd "..\LabAMS\LabAMS_react_frontend\"``` and run ```npm start``` after starting the backend flask server.
