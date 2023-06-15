@@ -68,7 +68,7 @@ https://github.com/gabebohlmann/web-development/tree/main/LabAMS
     ```
     This will start the Flask server on http://localhost:5000.
 
-7. Open http://localhost:5000 in your browser. Click on the users and assets links. You should be directed to a page with just two []. This is not an error, it is just showing that your MongoDB database is empty. We will now add data to our database. In MongoDB compass add a database named ```LabAMS_DB``` with a collection named ```users```. Click on the users collection when it is created and go to ```ADD DATA``` and then ```Import JSON or CSV file``` from here you should select the ```users.JSON``` file in  the ```LabAMS/backend/database``` folder. Repeat the same process to add the data from ```assets.JSON``` into the MongoDB database. Reload http://localhost:5000 and the users and assets data should now appear.
+7. Open http://localhost:5000 in your browser. Click on the users and assets links. You should be directed to a page with just two []. This is not an error, it is just showing that your MongoDB database is empty. We will now add data to our database. In MongoDB compass add a database named ```LabAMS_DB``` with a collection named ```users```. Click on the users collection when it is created and go to ```ADD DATA``` and then ```Import JSON or CSV file``` from here you should select the ```users.json``` file in  the ```LabAMS/backend/database``` folder. Repeat the same process to add the data from ```assets.json``` into the MongoDB database. Reload http://localhost:5000 and the users and assets data should now appear.
 
 ## Frontend Setup
 
