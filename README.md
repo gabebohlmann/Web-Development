@@ -1,1 +1,1 @@
-This the web-development repo README
+This my repo for web-development projects.
