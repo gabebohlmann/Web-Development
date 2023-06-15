@@ -30,7 +30,12 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
 3. Set up a virtual environment and activate it:
     ```
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate
+    ```
+    On Windows, use `venv\Scripts\activate`
+    ```
+    python -m venv venv
+    venv\Scripts\activate
     ```
 
 4. Install the required Python dependencies from `requirements.txt`:
@@ -40,8 +45,13 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
 
 5. Set the FLASK_APP environment variable:
     ```
-    export FLASK_APP=backend  # On Windows, use `set FLASK_APP=backend`
+    export FLASK_APP=backend
     ```
+    On Windows, use 
+    ```
+    set FLASK_APP=backend`
+    ```
+
 6. Ensure your Flask backend is set up to connect to your running MongoDB server. In /backend/__init__.py the the URI is set to  ```"mongodb://localhost:27017"``` by default and the database name is ```"LabAMS_DB"```
 
 6. Run the Flask server:
@@ -54,7 +64,7 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
 
 1. Open a new terminal/cmd window and navigate to the React frontend directory:
     ```
-    cd your_directory/web-development/LabAMS/frontend
+    cd "your_directory/web-development/LabAMS/frontend"
     ```
 
 2. Install the required npm packages:
@@ -66,6 +76,6 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
     ```
     npm start
     ```
-    This will start the frontend react application on http://localhost:3000. The user can interact with the LabAMSfrom this page.
+    This will start the frontend react application on http://localhost:3000. You can now interact with the LabAMS app from this page.
 
 
