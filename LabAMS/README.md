@@ -28,11 +28,14 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
     ```
 
 3. Set up a virtual environment and activate it:
+    
+    For Mac and Linux
     ```
     python -m venv venv
     source venv/bin/activate
     ```
-    On Windows, use `venv\Scripts\activate`
+
+    For Windows
     ```
     python -m venv venv
     venv\Scripts\activate
@@ -43,22 +46,27 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
     pip install -r requirements.txt
     ```
 
-5. Set the FLASK_APP environment variable:
+5. (optional: wsgi.py makes an env variable unneccessary) Set the FLASK_APP environment variable:
+
+    For Mac and Linux
     ```
     export FLASK_APP=backend
     ```
-    On Windows, use 
+    
+    For Windows
     ```
-    set FLASK_APP=backend`
+    set FLASK_APP=backend
     ```
 
-6. Ensure your Flask backend is set up to connect to your running MongoDB server. In /backend/__init__.py the the URI is set to  ```"mongodb://localhost:27017"``` by default and the database name is ```"LabAMS_DB"```
+6. Ensure your Flask backend is set up to connect to your running MongoDB server. In LabAMS/backend/__init__.py the URI is set to  ```"mongodb://localhost:27017"``` by default and the database name is ```"LabAMS_DB"```
 
 6. Run the Flask server:
     ```
     flask run
     ```
     This will start the Flask server on http://localhost:5000.
+
+7. Open http://localhost:5000 in your browser. Click on the users and assets links. You should be directed to a page with just two []. This is not an error, it is just showing that your MongoDB database is empty. We will now add data to our database. In MongoDB compass add a database named ```LabAMS_DB``` with a collection named ```users```. Click on the users collection when it is created and go to ```ADD DATA```and then ```Import JSON or CSV file``` from here you should select the ```users.JSON``` file in  the ```LabAMS/backend/database``` folder. Repeat the same process to add the data from ```assets.JSON``` into the MongoDB database. Reload http://localhost:5000, the users and assets data should now appear.
 
 ## Frontend Setup
 
