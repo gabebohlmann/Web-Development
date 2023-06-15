@@ -7,12 +7,15 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
 ## Tool Installation
 
 1. Install a text editor or IDE of your choosing, VS Code is recommended.
-2. Install the necessary technologies and frameworks. This project requires Python, Node.js, and MongoDB to be installed. All ackage installs are covered in the guide below.
+2. Install the necessary technologies and frameworks. This project requires Python, Node.js, and MongoDB to be installed. All package installs are covered in the guide below.
 
 ## Backend Setup
 
 1. Start your MongoDB server. The method for doing this can vary depending on your operating system.
-    - On windows it is recommended to use MongoDB compass and connect to this URI: ```mongodb://localhost:27017```
+    - On windows it is recommended to use MongoDB compass and connect to the default URI: 
+    ```
+    mongodb://localhost:27017
+    ```
 
 2. Clone the web-development repository to your local machine. Open terminal/cmd and run:
     ```
