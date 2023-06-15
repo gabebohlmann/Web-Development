@@ -12,10 +12,10 @@ This is the Lab Asset Management System (LabAMS) Application . It is a simple we
 ## Backend Setup
 
 1. Start your MongoDB server. The method for doing this can vary depending on your operating system.
-    - On windows it is recommended to use MongoDB compass and connect to the default URI: 
-    ```
-    mongodb://localhost:27017
-    ```
+    - On windows it is recommended to use MongoDB compass and connect to the default URI
+        ```
+        mongodb://localhost:27017
+         ```
 
 2. Clone the web-development repository to your local machine. Open terminal/cmd and run:
     ```
